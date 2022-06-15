@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import ME from "../../assets/me-about.jpg";
 import { FaUserGraduate, FaUniversity } from "react-icons/fa";
-import { MdGrade } from "react-icons/md";
+// import { MdGrade } from "react-icons/md";
 
 const About = () => {
   return (
@@ -17,25 +17,22 @@ const About = () => {
         </div>
         <div className="about__content">
           <div className="about__cards">
+
             <article className="about__card">
               <FaUserGraduate className="about__icon" />
               <h5>Estudios</h5>
-              <small>DAM Desarrollo de aplicaciones multiplataforma</small>
+              <small>Desarrollo de aplicaciones multiplataforma</small>
             </article>
-          </div>
-          <div className="about__cards">
             <article className="about__card">
               <FaUniversity className="about__icon" />
               <h5>Centro</h5>
-              <small>UOC Universitat Oberta de Catalunya </small>
+              <small>Universitat Oberta de Cataluña </small>
             </article>
-          </div>
-          <div className="about__cards">
-            <article className="about__card">
+            {/* <article className="about__card">
               <MdGrade className="about__icon" />
               <h5>Nivel</h5>
               <small>Junior</small>
-            </article>
+            </article> */}
           </div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus

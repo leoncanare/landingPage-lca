@@ -17,7 +17,6 @@ const Header = () => {
         <div className="me">
           <img src={ME} alt="me" /> 
         </div>
-
         <a href="#contact" className='scroll__down'><BsFileArrowDownFill/></a>
       </div>
     </header>
