@@ -66,8 +66,8 @@ h1 {
 section {
   margin-top: 8rem;
   padding-top: 2rem;
-  height: 90vh;
 }
+/* height: 90vh; */
 
 section > h1,
 section > h5 {
