@@ -5,6 +5,7 @@ import "./contact.css";
 
 import { MdEmail } from "react-icons/md";
 import { FaTelegram } from "react-icons/fa";
+import {BsFileArrowUpFill} from 'react-icons/bs'
 
 const Contact = () => {
   const form = useRef();
@@ -68,6 +69,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <a href="#home" className='scroll__up'><BsFileArrowUpFill/></a>
     </section>
   );
 };

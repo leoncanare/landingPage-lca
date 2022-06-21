@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/me-about.png";
 import { FaUserGraduate, FaUniversity } from "react-icons/fa";
 // import { MdGrade } from "react-icons/md";
 

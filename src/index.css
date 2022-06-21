@@ -14,12 +14,16 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 :root {
-  --color-bg: #161627;
-  --color-br-variant: #2c2c6c;
-  --color-primary: #4db5ff;
+  --color-bg: #2B2D42;
+  --color-br-variant: #202231;
+  --color-br-variant-obj: #202231a1;
+  --color-primary: #D90429;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
-  --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-white: #EDF2F4;
+  --color-light: #aeb1b6;
+  --color-light-ttl: #B7BFCC;
+
+  --color-hover-btn: #b7bfccc4;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -41,9 +45,9 @@ body {
   background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/cartographer.png);
+  background-image: url(../src/assets/purty-wood.png);
 }
-
+/* background-image: url(../src/assets/cartographer.png); */
 /* ----------- GENERAL STYLES ----------- */
 
 .container {
@@ -72,12 +76,15 @@ section {
 section > h1,
 section > h5 {
   text-align: center;
-  color: var(--color-light);
+  color: var(--color-light-ttl);
 }
 
 section > h2 {
   color: var(--color-primary);
   margin-bottom: 3rem;
+  font-size: 1.8rem;
+  text-shadow: var(--color-bg) 3px 2px 2px;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -97,16 +104,17 @@ a:hover {
 .btn {
   width: max-content;
   display: inline-block;
+  box-shadow: var(--color-bg) 3px 2px 2px;
   color: var(--color-primary);
   padding: 0.75rem 1.2rem;
-  border-radius: 0.4rem;
+  border-radius: 2rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
 }
 
 .btn:hover {
-  background: var(--color-white);
+  background: var(--color-hover-btn);
   color: var(--color-bg);
   border-color: transparent;
 }

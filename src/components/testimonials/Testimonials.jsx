@@ -34,7 +34,7 @@ const testimonialsData = [
 const Testimonials = () => {
   return (
     <section id="testimonial">
-      <h5> Opinion de mis compañeros </h5>
+      <h5> Aqui puedes saber que opinan de mi trabajo </h5>
       <h2> Valoraciones </h2>
       <Swiper
         effect={"cards"}
