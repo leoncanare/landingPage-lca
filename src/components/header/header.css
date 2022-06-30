@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 5rem;
   overflow: hidden;
 }
 
@@ -55,17 +55,22 @@ header {
 /* ===== MEDIA QUERIES -> Medium Devices ===== */
 @media screen and (max-width: 1024px) {
   header {
-    height: 100vh;
+    height: 110vh;
   }
 }
 
 /* ===== MEDIA QUERIES -> Small Devices ===== */
 @media screen and (max-width: 600px) {
   header {
-    height: 110vh;
+    height: 120vh;
   }
   .header__socials,
   .scroll__down {
     display: none;
+  }
+  .header__buttons{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
   }
 }

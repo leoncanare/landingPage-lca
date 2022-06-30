@@ -24,7 +24,7 @@ const Nav = () => {
       onClick={()=> setActiveNav('#experience')} 
       className={activeNav === '#experience' ? 'active' : ''}>
         <ImBooks/></a>
-      <a href="#services"
+      <a href="#portfolio"
       onClick={()=> setActiveNav('#services')} 
       className={activeNav === '#services' ? 'active' : ''}>
         <MdDesignServices/></a>

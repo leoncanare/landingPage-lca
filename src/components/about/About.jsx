@@ -40,9 +40,9 @@ const About = () => {
             explicabo perferendis eius possimus fugit, numquam mollitia harum
             eos aperiam. Reprehenderit, et corporis?
           </p>
-          <a href="#contact" className="btn btn-primary">
+          {/* <a href="#contact" className="btn btn-primary">
             ¡Hablemos!
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

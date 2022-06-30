@@ -5,21 +5,28 @@
 }
 
 .about__me {
-  width: 100%;
+  width: 110%;
   aspect-ratio: 1/1;
-  border-radius: 2rem;
-  background: linear-gradient(
-    45deg,
-    transparent,
-    var(--color-primary),
-    transparent
-  );
+  border-radius: 100rem;
   display: grid;
   place-items: center;
+  background: radial-gradient(
+    var(--color-br-variant-obj),
+    );
+  animation: animate 5s infinite alternate;
+}
+
+@keyframes animate {
+  0%{
+    background-position: left;
+  }100%{
+    background-position: right;
+  }
 }
 
 .about__me-image {
-  border-radius: 2rem;
+  width: 90%;
+  border-radius: 100rem;
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);
@@ -36,7 +43,7 @@
 }
 
 .about__card {
-  background: var(--color-br-variant);
+  background-color: var(--color-br-variant);
   border: 1px solid transparent;
   border-radius: 1rem;
   width: 250px;
@@ -46,11 +53,11 @@
   transition: var(--transition);
 }
 
-.about__card:hover {
-  background: transparent;
+/* .about__card:hover {
+  background: var(--color-br-variant-obj);
   border-color: var(--color-br-variant);
   cursor: default;
-}
+} */
 
 .about__icon {
   color: var(--color-primary);

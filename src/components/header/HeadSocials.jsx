@@ -4,8 +4,8 @@ import {FaGithubSquare, FaLinkedin, FaDribbbleSquare} from 'react-icons/fa'
 const HeadSocials = () => {
   return (
     <div className='header__socials'>
-        <a href="https://linkedi.com" target='_blank' rel="noopener noreferrer"><FaLinkedin/></a>
-        <a href="https://github.com" target='_blank' rel="noopener noreferrer"><FaGithubSquare/></a>
+        <a href="https://www.linkedin.com/in/le%C3%B3n-cantalapiedra-arellano" target='_blank' rel="noopener noreferrer"><FaLinkedin/></a>
+        <a href="https://github.com/leoncanare" target='_blank' rel="noopener noreferrer"><FaGithubSquare/></a>
         <a href="https://youtube.com" target='_blank' rel="noopener noreferrer"><FaDribbbleSquare/></a>
     </div>
   )
@@ -13,4 +13,4 @@ const HeadSocials = () => {
 
 export default HeadSocials
 
-// TODO 3 enlace cambiar.
+// TODO enlace cambiar dribble.

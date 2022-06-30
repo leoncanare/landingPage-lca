@@ -1,16 +1,23 @@
-import React from 'react'
-import CV from '../../assets/cv.pdf'
-import './headerbtns.css'
+import React from "react";
+import CV from "../../assets/cv.pdf";
+import "./headerbtns.css";
+
+import { GiTalk } from "react-icons/gi";
+import { HiDocumentDownload } from "react-icons/hi";
 
 const headBtns = () => {
   return (
-    <div className='header__buttons'>
-        <a href={CV} download className='btn'> Descarga mi CV </a>
-        <a href="#contact" className='btn btn-primary'> ¡Hablemos! </a>
-        <button class="btn1"><span>Hover me!</span></button>
-
+    <div className="header__buttons">
+      <a href={CV} download className="btn1">
+        C.Vitae
+        <HiDocumentDownload className="icon-btn" />
+      </a>
+      <a href="#contact" className="btn1">
+        ¡Hablemos!
+        <GiTalk className="icon-btn" />
+      </a>
     </div>
-  )
-}
+  );
+};
 
-export default headBtns
+export default headBtns;

@@ -17,13 +17,15 @@ font-family: 'Ubuntu', sans-serif; */
   --color-bg: #2B2D42;
   --color-br-variant: #202231;
   --color-br-variant-obj: #202231a1;
+  --color-br-variant-red: #D90429a1;
+  --color-shadow: rgba(16, 25, 31, 0.842);
   --color-primary: #D90429;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #EDF2F4;
   --color-light: #aeb1b6;
-  --color-light-ttl: #B7BFCC;
+  --color-light-ttl: #bfc6d3;
 
-  --color-hover-btn: #b7bfccc4;
+  --color-hover: #b7bfcc79;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -48,8 +50,8 @@ body {
   background-image: url(../src/assets/purty-wood.png);
 }
 /* background-image: url(../src/assets/cartographer.png); */
-/* ----------- GENERAL STYLES ----------- */
 
+/* ----------- GENERAL STYLES ----------- */
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
@@ -70,6 +72,7 @@ h1 {
 section {
   margin-top: 8rem;
   padding-top: 2rem;
+  padding-bottom: 7rem;
 }
 /* height: 90vh; */
 
@@ -102,26 +105,53 @@ a:hover {
 }
 
 .btn {
-  width: max-content;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1rem;
   box-shadow: var(--color-bg) 3px 2px 2px;
-  color: var(--color-primary);
+  background: var(--color-primary);
+  color: var(--color-bg);
   padding: 0.75rem 1.2rem;
-  border-radius: 2rem;
+  border-radius: 0.3rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
 }
 
 .btn:hover {
-  background: var(--color-hover-btn);
+  background: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
 }
 
-.btn-primary {
+.btn1 {
+  width: fit-content;
+  border: none;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: var(--color-br-variant-obj);
+  padding: 17px;
+  box-shadow: 0px 0px 20px var(--color-br-variant);
+}
+
+.btn1:hover {
   background: var(--color-primary);
-  color: var(--color-bg);
+}
+
+.icon-btn {
+  margin-left: 1rem;
+  font-size: 1.5rem;
 }
 
 img {

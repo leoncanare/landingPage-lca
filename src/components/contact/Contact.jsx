@@ -6,6 +6,8 @@ import "./contact.css";
 import { MdEmail } from "react-icons/md";
 import { FaTelegram } from "react-icons/fa";
 import {BsFileArrowUpFill} from 'react-icons/bs'
+import {RiMailSendLine, RiCheckLine} from 'react-icons/ri'
+import { toBeInvalid } from "@testing-library/jest-dom/dist/matchers";
 
 const Contact = () => {
   const form = useRef();
@@ -64,9 +66,12 @@ const Contact = () => {
           />
           <input type="email" name="email" placeholder="Correo" required />
           <textarea name="message" rows="10" placeholder="Mensaje"></textarea>
+
           <button type="submit" className="btn btn-primary">
-            ENVIAR MENSAJE
+            ENVIAR MENSAJE <RiMailSendLine className="icon-btn ico msg"/><RiCheckLine className="icon-btn ico check"/>
+            {/* <RiCheckLine className="icon-btn ico check"/> */}
           </button>
+
         </form>
       </div>
       <a href="#home" className='scroll__up'><BsFileArrowUpFill/></a>

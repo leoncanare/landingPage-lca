@@ -1,44 +1,45 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
+import IMG1 from "../../assets/proyect1.png";
+import IMG2 from "../../assets/dotsGif.gif";
+
+import {FaEye} from 'react-icons/fa'
+import {FiGithub} from 'react-icons/fi'
 
 const dataProyects = [
   {
     id: 1,
     image: IMG1,
-    title: "Titulo proyecto",
-    github: "https://github.com",
-    demo: "https://dribble.com/Alien_pixels",
+    title: "Bases en Angular",
+    github: "https://github.com/leoncanare/FormacionFRONT/tree/main/BOSNITFormacion-NuevoItinerario/AngularF%26ReactiveP",
+    demo: "https://6299febc6e9da56c5c7d85eb--angularejercicies-leoncanare.netlify.app/",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Titulo proyecto",
+    title: "Futuro proyecto",
     github: "https://github.com",
     demo: "https://dribble.com/Alien_pixels",
   },
-  {
-    id: 3,
-    image: IMG3,
-    title: "Titulo proyecto",
-    github: "https://github.com",
-    demo: "https://dribble.com/Alien_pixels",
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: "Titulo proyecto",
-    github: "https://github.com",
-    demo: "https://dribble.com/Alien_pixels",
-  },
+  // {
+  //   id: 3,
+  //   image: IMG2,
+  //   title: "Titulo proyecto",
+  //   github: "https://github.com",
+  //   demo: "https://dribble.com/Alien_pixels",
+  // },
+  // {
+  //   id: 4,
+  //   image: IMG2,
+  //   title: "Titulo proyecto",
+  //   github: "https://github.com",
+  //   demo: "https://dribble.com/Alien_pixels",
+  // },
 ];
 
 const Portfolio = () => {
   return (
-    <section className="sec" id="about">
+    <section id="portfolio">
       <h5>Mis trabajos recientes</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
@@ -50,11 +51,10 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-btns">
-                <a href={github} className="btn" target="_blank" rel="noopener noreferrer">
-                  Github
-                </a>
-                <a href={demo} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                  Live Demo
+                <a href={github} target="_blank" rel="noopener noreferrer">
+                <FiGithub/></a>
+                <a href={demo} target="_blank" rel="noopener noreferrer">
+                  <FaEye/>
                 </a>
               </div>
             </article>
