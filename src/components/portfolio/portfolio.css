@@ -27,6 +27,17 @@
   margin: 1.2rem 0 2rem;
 }
 
+.portfolio__lenguages{
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  color: var(--color-primary-variant);
+}
+
 .portfolio__item-btns {
   display: flex;
   justify-content: flex-end;
@@ -63,4 +74,4 @@
     }
 }
 
-/* TODO Moejorar responsive para pantallas aqui posible solucion res -400px */
+/* TODO Error iconos fallo consola key prop */

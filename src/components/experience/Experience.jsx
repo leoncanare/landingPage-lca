@@ -18,8 +18,8 @@ import { FaNodeJs } from "react-icons/fa";
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>Cuales son mis Habilidades</h5>
-      <h2>Experiencia</h2>
+      <h5>These are all</h5>
+      <h2>My Skills</h2>
       <div className="container experience__container">
         {/* FRONTEND XP */}
         <div className="experience__frontend">
@@ -29,56 +29,56 @@ const Experience = () => {
               <SiAngular className="experience__details-icon" />
               <div>
                 <h4>Angular</h4>
-                <small className="text-light">Intermedia</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <SiTypescript className="experience__details-icon" />
               <div>
                 <h4>Typescript</h4>
-                <small className="text-light">Avanzada</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className="experience__details">
               <SiReact className="experience__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Intermedia</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <SiJavascript className="experience__details-icon" />
               <div>
                 <h4>Javascript</h4>
-                <small className="text-light">Avanzada</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className="experience__details">
               <SiBootstrap className="experience__details-icon" />
               <div>
                 <h4>Bootstrap</h4>
-                <small className="text-light">Avanzada</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <SiSass className="experience__details-icon" />
               <div>
                 <h4>Sass</h4>
-                <small className="text-light">Avanzada</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className="experience__details">
               <SiCss3 className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Avanzada</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className="experience__details">
               <SiHtml5 className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Avanzada</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
           </div>
@@ -91,28 +91,28 @@ const Experience = () => {
               <FaNodeJs className="experience__details-icon" />
               <div>
                 <h4>Node JS</h4>
-                <small className="text-light">Intermedia</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <SiMongodb className="experience__details-icon" />
               <div>
                 <h4>MongoDB</h4>
-                <small className="text-light">Basica</small>
+                <small className="text-light">Basic</small>
               </div>
             </article>
             <article className="experience__details">
               <SiPhp className="experience__details-icon" />
               <div>
                 <h4>PHP</h4>
-                <small className="text-light">Avanzada</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className="experience__details">
               <SiMysql className="experience__details-icon" />
               <div>
                 <h4>MySQL</h4>
-                <small className="text-light">Avanzada</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
           </div>

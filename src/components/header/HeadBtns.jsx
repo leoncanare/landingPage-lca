@@ -13,7 +13,7 @@ const headBtns = () => {
         <HiDocumentDownload className="icon-btn" />
       </a>
       <a href="#contact" className="btn1">
-        ¡Hablemos!
+        Let's talk!
         <GiTalk className="icon-btn" />
       </a>
     </div>

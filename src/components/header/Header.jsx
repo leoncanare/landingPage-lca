@@ -9,9 +9,9 @@ const Header = () => {
   return (
     <header id='home'>
       <div className="container header__container">
-        <h3>Hola soy</h3>
+        <h3>Hello I'm</h3>
         <h1>León Arellano</h1>
-        <h5 className="text-light">Frontend Developer</h5>
+        <h5 className="title">Frontend Developer</h5>
         <HB/>
         <HS/>
         <div className="me">
@@ -24,5 +24,3 @@ const Header = () => {
 }
 
 export default Header
-
-// TODO Remplazar img, srolldown por flecha

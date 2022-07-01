@@ -20,12 +20,14 @@ font-family: 'Ubuntu', sans-serif; */
   --color-br-variant-red: #D90429a1;
   --color-shadow: rgba(16, 25, 31, 0.842);
   --color-primary: #D90429;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-primary-variant: rgba(77, 181, 255, 0.767);
   --color-white: #EDF2F4;
   --color-light: #aeb1b6;
-  --color-light-ttl: #bfc6d3;
+  --color-light-ttl: #d9dde4d7;
 
   --color-hover: #b7bfcc79;
+  --color-bckTxt: #aeafb179;
+
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -67,6 +69,10 @@ h5 {
 
 h1 {
   font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 1.2rem;
 }
 
 section {

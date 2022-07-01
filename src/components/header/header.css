@@ -4,6 +4,11 @@ header {
   overflow: hidden;
 }
 
+.title {
+  margin-top: 1rem;
+  color: var(--color-light-ttl);
+}
+
 .header__container {
   text-align: center;
   height: 100%;

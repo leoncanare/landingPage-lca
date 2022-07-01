@@ -7,7 +7,6 @@ import { MdEmail } from "react-icons/md";
 import { FaTelegram } from "react-icons/fa";
 import {BsFileArrowUpFill} from 'react-icons/bs'
 import {RiMailSendLine, RiCheckLine} from 'react-icons/ri'
-import { toBeInvalid } from "@testing-library/jest-dom/dist/matchers";
 
 const Contact = () => {
   const form = useRef();
@@ -34,21 +33,21 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5> Ponte en contacto </h5>
-      <h2> Conmigo </h2>
+      <h5> Get in touch  </h5>
+      <h2> With Me </h2>
       <div className="container contact__container">
         <div className="contact__opotions">
           <article className="contact__option">
             <MdEmail className="contact__option-icon" />
-            <h4>Correo</h4>
+            <h4>Email</h4>
             <h5>leoncanare@gmail.com</h5>
-            <a href="mailto:leoncanare@gmail.com">Enviar un mensaje</a>
+            <a href="mailto:leoncanare@gmail.com">Send a message</a>
           </article>
           <article className="contact__option">
             <FaTelegram className="contact__option-icon" />
             <h4>Telegram</h4>
             <h5>@leoncanare</h5>
-            <a href="mailto:leoncanare@gmail.com">Enviar un mensaje</a>
+            <a href="mailto:leoncanare@gmail.com">Send a message</a>
           </article>
           {/* <article className='contact__option'>
           <SiLinkedin/>
@@ -61,14 +60,14 @@ const Contact = () => {
           <input
             type="text"
             name="name"
-            placeholder="Nombre completo o Nombre de la Empresa"
+            placeholder="Your name or company name"
             required
           />
-          <input type="email" name="email" placeholder="Correo" required />
-          <textarea name="message" rows="10" placeholder="Mensaje"></textarea>
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea name="message" rows="10" placeholder="Message..."></textarea>
 
           <button type="submit" className="btn btn-primary">
-            ENVIAR MENSAJE <RiMailSendLine className="icon-btn ico msg"/><RiCheckLine className="icon-btn ico check"/>
+            SEND <RiMailSendLine className="icon-btn ico msg"/><RiCheckLine className="icon-btn ico check"/>
             {/* <RiCheckLine className="icon-btn ico check"/> */}
           </button>
 
