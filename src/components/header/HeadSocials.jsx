@@ -6,7 +6,7 @@ const HeadSocials = () => {
     <div className='header__socials'>
         <a href="https://www.linkedin.com/in/le%C3%B3n-cantalapiedra-arellano" target='_blank' rel="noopener noreferrer"><FaLinkedin/></a>
         <a href="https://github.com/leoncanare" target='_blank' rel="noopener noreferrer"><FaGithubSquare/></a>
-        <a href="https://youtube.com" target='_blank' rel="noopener noreferrer"><FaDribbbleSquare/></a>
+        <a href="https://dribbble.com/lcanare" target='_blank' rel="noopener noreferrer"><FaDribbbleSquare/></a>
     </div>
   )
 }

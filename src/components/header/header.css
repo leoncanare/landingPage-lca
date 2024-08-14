@@ -15,6 +15,10 @@ header {
   position: relative;
 }
 
+.heading-btn {
+  width: 175px;
+}
+
 /* ===== HB Styles ===== */
 .header__buttons {
   margin-top: 2.5rem;
@@ -40,7 +44,7 @@ header {
   position: absolute;
   right: -2.3rem;
   bottom: 5rem;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 /* ===== ME Styles ===== */

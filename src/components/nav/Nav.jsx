@@ -6,6 +6,7 @@ import {SiAboutdotme} from 'react-icons/si'
 import {ImBooks} from 'react-icons/im'
 import {MdDesignServices} from 'react-icons/md'
 import {RiMessage2Fill,RiHome3Fill} from 'react-icons/ri'
+import { MdOutlineWork } from "react-icons/md";
 
 
 const Nav = () => {
@@ -24,9 +25,13 @@ const Nav = () => {
       onClick={()=> setActiveNav('#experience')} 
       className={activeNav === '#experience' ? 'active' : ''}>
         <ImBooks/></a>
-      <a href="#portfolio"
+      <a href="#services"
       onClick={()=> setActiveNav('#services')} 
       className={activeNav === '#services' ? 'active' : ''}>
+        <MdOutlineWork/></a>
+      <a href="#portfolio"
+      onClick={()=> setActiveNav('#portfolio')} 
+      className={activeNav === '#portfolio' ? 'active' : ''}>
         <MdDesignServices/></a>
       <a href="#contact"
       onClick={()=> setActiveNav('#contact')} 

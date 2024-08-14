@@ -4,6 +4,7 @@ import IMG from "../../assets/dotsGif.gif";
 import IMG1 from "../../assets/angularBases.png";
 import IMG2 from "../../assets/counter.png";
 import IMG3 from "../../assets/digidex.png";
+import IMG4 from "../../assets/personalized-components-library.PNG";
 
 import { FaEye } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
@@ -19,6 +20,21 @@ import {
 const dataProyects = [
   {
     id: 1,
+    image: IMG4,
+    title: "Personalized Components Library",
+    lenguages: [
+      <SiAngular color="#b42833" />,
+      " ",
+      <SiSass color="#cc72a5" />,
+      " ",
+      <SiTypescript color="#1578bc" />,
+      " ",
+      <SiHtml5 color="#e24e28" />,
+    ],
+    demo: "https://components-library-lca.netlify.app/",
+  },
+  {
+    id: 2,
     image: IMG1,
     title: "Angular Bases",
     lenguages: [
@@ -32,10 +48,10 @@ const dataProyects = [
     ],
     github:
       "https://github.com/leoncanare/FormacionFRONT/tree/main/BOSNITFormacion-NuevoItinerario/AngularF%26ReactiveP",
-    demo: "https://6299febc6e9da56c5c7d85eb--angularejercicies-leoncanare.netlify.app/",
+    demo: "https://angularbases-lcantare.netlify.app",
   },
   {
-    id: 2,
+    id: 3,
     image: IMG2,
     title: "Counter",
     lenguages: [
@@ -47,10 +63,10 @@ const dataProyects = [
     ],
     github:
       "https://github.com/leoncanare/FormacionFRONT/tree/main/BOSNITFormacion-NuevoItinerario/LanguageFundamentals%26BestPractices/counter",
-    demo: "https://luxury-stardust-0dcf26.netlify.app/",
+    demo: "https://counter-lcantare.netlify.app",
   },
   {
-    id: 3,
+    id: 4,
     image: IMG3,
     title: "Digi-Dex",
     lenguages: [
@@ -63,7 +79,7 @@ const dataProyects = [
 
     github:
       "https://github.com/leoncanare/FormacionFRONT/tree/main/BOSNITFormacion-NuevoItinerario/LanguageFundamentals%26BestPractices/search-on-type",
-    demo: "https://whimsical-raindrop-b3419b.netlify.app/",
+    demo: "https://digidex-lcantare.netlify.app",
   }
 ];
 
@@ -82,9 +98,11 @@ const Portfolio = () => {
               <h3>{title}</h3>
               <div className="portfolio__item-btns">
                 <span className="portfolio__lenguages">{lenguages}</span>
+                {github ? (
                 <a href={github} target="_blank" rel="noopener noreferrer">
                   <FiGithub />
                 </a>
+                ) : null }
                 <a href={demo} target="_blank" rel="noopener noreferrer">
                   <FaEye />
                 </a>

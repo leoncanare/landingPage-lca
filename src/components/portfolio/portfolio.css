@@ -62,16 +62,16 @@
   color: var(--color-bg);
 }
 
+@media screen and (max-width: 1000px) {
+  .portfolio__container {
+      grid-template-columns: 1fr;
+  }
+}
+
 /* ===== MEDIA QUERIES -> Medium Devices ===== */
 @media screen and (max-width: 1024px) {
   
 }
 
-/* ===== MEDIA QUERIES -> Small Devices ===== */
-@media screen and (max-width: 600px) {
-    .portfolio__container {
-        grid-template-columns: 1fr;
-    }
-}
 
 /* TODO Error iconos fallo consola key prop */

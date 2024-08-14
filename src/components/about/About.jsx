@@ -35,15 +35,18 @@ const About = () => {
           </div>
           <div className="text">
             <p>
-            Hello, my name is León, I currently live in Pamplona, Spain. As a
-            mere description I have always been someone passionate about
-            artistic touch in things, to be meticulous and creative. 
+            Hello, my name is León, I am a Frontend developer specialized in the Angular framework, 
+            I am fascinated by creating efficient and attractive user interfaces, 
+            focusing on performance optimization and providing an intuitive, 
+            functional and agile user experience.  
             <br/><br/>
-            As a professional goal I would love to work individually or at a business level, looking to make the client happy, fulfilling 100% with the expectations and their goal. 
+            I consider myself a creative and proactive person, 
+            always with a constant focus on expanding and updating my skills as a developer.
+            and updating my skills as a developer, committed to a job well done. 
+            I enjoy working in a team and facing new challenges that allow me to grow professionally. 
             <br/><br/>
-            I think this is one of the traits that
-            make the difference between creating a mere product and a well done
-            job with identity.
+            I am eager to contribute my experience, learn with my colleagues and be able to apply my 
+            creativity to the projects that come my way.
           </p>
           </div>
           

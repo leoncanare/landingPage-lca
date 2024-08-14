@@ -77,7 +77,7 @@ textarea:focus {
 }
 
 /* ===== SEND BUTTON ===== */
-.btn {
+/* .btn {
   overflow: hidden;
 }
 
@@ -97,7 +97,7 @@ textarea:focus {
 .btn:active .check {
   z-index: 1;
   animation: fadeIn 1s;
-}
+} */
 
 
 @keyframes fadeIn {
@@ -105,11 +105,41 @@ textarea:focus {
   100% { opacity: 1; }
 }
 
+/* Button.css */
+.btn {
+  /* background-color: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: all 0.3s ease; */
+}
+
+.btn span {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+/*
+.animating span {
+  transform: translateX(100px);
+} */
+
+/* .animating {
+  background-color: #03dac5;
+} */
+
+
 /* ===== SCROLL Styles ===== */
 .scroll__up {
   position: relative;
   right: -87.2%;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 /* ===== MEDIA QUERIES -> Medium Devices ===== */

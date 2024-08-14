@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState  } from "react";
 import emailjs from "emailjs-com";
 
 import "./contact.css";
@@ -11,12 +11,15 @@ import {RiMailSendLine, RiCheckLine} from 'react-icons/ri'
 const Contact = () => {
   const form = useRef();
 
+  const [isAnimating, setIsAnimating] = useState(false);
+
   const sendEmail = (e) => {
     e.preventDefault();
-
+    setIsAnimating(true);
+    setTimeout(() => setIsAnimating(false), 2000);
     emailjs
       .sendForm(
-        "service_jmky2j3",
+        "service_d4i4jvy",
         "template_hrqhx1s",
         form.current,
         "bf6j6vcYuwJArDyzz"
@@ -29,6 +32,7 @@ const Contact = () => {
           console.log(error.text);
         }
       );
+    form.current.reset();
   };
 
   return (
@@ -66,8 +70,12 @@ const Contact = () => {
           <input type="email" name="email" placeholder="Email" required />
           <textarea name="message" rows="10" placeholder="Message..."></textarea>
 
-          <button type="submit" className="btn btn-primary">
-            SEND <RiMailSendLine className="icon-btn ico msg"/><RiCheckLine className="icon-btn ico check"/>
+          <button type="submit" className={`btn ${isAnimating ? 'animating' : ''}`}>
+            { isAnimating 
+              ? <span>SENDED<RiCheckLine className="icon-btn ico check"/></span>
+              : <span>SEND<RiMailSendLine className="icon-btn ico msg"/></span>
+            }
+            {/* {isAnimating ? <span>✔️</span> : <span>➡️</span>} */}
             {/* <RiCheckLine className="icon-btn ico check"/> */}
           </button>
 

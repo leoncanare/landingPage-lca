@@ -1,6 +1,5 @@
 {
   "name": "landing-page-lca",
-  "homepage": "https//lcanare.me",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
