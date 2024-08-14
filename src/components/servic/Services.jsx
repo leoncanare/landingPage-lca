@@ -121,13 +121,13 @@ const Services = () => {
               <img className="bosonit-logo" src={BOS} alt="logo" />
             </div>
             <div className="service__head-text">
-              <h3>[ CAE ] Frontend Developer</h3>
+              <h3>[ MICAELA ] Frontend Developer</h3>
               <h5><b>Jul. 2024 - Currently working</b></h5>
             </div>
           </div>
           <ul className="service__list">
           <div className="service__list-description">
-            <h3>Development of the website of the CAE project, a platform for the management of environmental aid for the Spanish government.</h3>
+            <h3>Development of the public website of the MICAELA project, a platform for the management of energy saving certificates, for the Spanish government.</h3>
           </div>
             <li>
               <FaDotCircle className="service__list-icon" />

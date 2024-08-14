@@ -85,12 +85,12 @@
 
 .service__list-icon {
   color: var(--color-primary);
-  margin-top: 4px;
-  font-size: 1.3rem;
+  margin-top: 6px;
+  font-size: 1rem;
 }
 
 .service__list p {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .service__inside-title {
