@@ -38,17 +38,15 @@ const dataProyects = [
     image: IMG1,
     title: "Angular Bases",
     lenguages: [
+      // {id: 1, lng: <SiAngular color="#b42833" />},
       <SiAngular color="#b42833" />,
-      " ",
       <SiSass color="#cc72a5" />,
-      " ",
       <SiTypescript color="#1578bc" />,
-      " ",
       <SiHtml5 color="#e24e28" />,
     ],
     github:
       "https://github.com/leoncanare/FormacionFRONT/tree/main/BOSNITFormacion-NuevoItinerario/AngularF%26ReactiveP",
-    demo: "https://angularbases-lcantare.netlify.app",
+    demo: "https://angularbases-lcantare.netlify.app/",
   },
   {
     id: 3,
@@ -56,14 +54,12 @@ const dataProyects = [
     title: "Counter",
     lenguages: [
       <SiJavascript color="#ffca30" />,
-      " ",
-      <SiCss3 color="#359ace" />,
-      " ",
       <SiHtml5 color="#e24e28" />,
+      <SiCss3 color="#359ace" />,
     ],
     github:
       "https://github.com/leoncanare/FormacionFRONT/tree/main/BOSNITFormacion-NuevoItinerario/LanguageFundamentals%26BestPractices/counter",
-    demo: "https://counter-lcantare.netlify.app",
+    demo: "https://counter-lcantare.netlify.app/",
   },
   {
     id: 4,
@@ -71,15 +67,12 @@ const dataProyects = [
     title: "Digi-Dex",
     lenguages: [
       <SiJavascript color="#ffca30" />,
-      " ",
-      <SiCss3 color="#359ace" />,
-      " ",
       <SiHtml5 color="#e24e28" />,
+      <SiCss3 color="#359ace" />,
     ],
-
     github:
       "https://github.com/leoncanare/FormacionFRONT/tree/main/BOSNITFormacion-NuevoItinerario/LanguageFundamentals%26BestPractices/search-on-type",
-    demo: "https://digidex-lcantare.netlify.app",
+    demo: "https://digidex-lcantare.netlify.app/",
   }
 ];
 

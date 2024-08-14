@@ -16,8 +16,8 @@ const Footer = () => {
         <li><a href="#contact">Contacto</a></li>
       </ul> */}
       <div className="footer__socials">
-        <a href="https://facebook.com"><AiFillFacebook/></a>
-        <a href="https://instagram.com"><AiFillInstagram/></a>
+        <a href="https://www.facebook.com/leon.cantalapiedraarellano"><AiFillFacebook/></a>
+        <a href="https://www.instagram.com/leoncantallano/"><AiFillInstagram/></a>
       </div>
       <div className="footer__copyright">
         <small>&copy; lcanare. All rights reserved.</small>
